@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using System.Windows;
 using WpfDesignPatternPrac.Properties;
 
 namespace WpfDesignPatternPrac.DesignPattern.Models
@@ -43,21 +44,55 @@ namespace WpfDesignPatternPrac.DesignPattern.Models
                 ? null
                 : JsonSerializer.Deserialize<IEnumerable<Person>>(jsonData);
         }
+        public bool SaveOne(Person person)
+        {
+            try
+            {
+                List<Person> people = GetPeople();
+                Person? findPerson = people.Find(p => p.Id == person.Id);
+
+                if (findPerson != null)
+                {
+                    // update
+                    findPerson.Update(person);
+
+                }
+                else
+                {
+                    people.Add(person);
+                }
+                SaveSettings(people);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }            
+
+            return true;
+        }
 
         public bool DeleteOne(int id)
         {
+            try
+            {
+                List<Person> people = GetPeople();
+                Person? findPerson = people.Find(p => p.Id == id);
+
+                if (findPerson == null) return false;
+
+                people.Remove(findPerson);
+                SaveSettings(people);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
             
+            return true;
         }
 
-        public bool Exist(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-
-        public bool SaveOne(Person person)
-        {
-            throw new NotImplementedException();
-        }
+        public bool Exist(int id) => GetPeople().Exists(p => p.Id == id);
     }
 }

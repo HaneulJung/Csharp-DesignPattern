@@ -24,7 +24,8 @@ namespace WpfDesignPatternPrac
         private void MVCBtn_Click(object sender, RoutedEventArgs e)
         {
             var mainView = new DesignPattern.MVC.Views.MainView();
-            _ = new DesignPattern.MVC.Controllers.MainController(mainView);
+            var personRepository = new DesignPattern.Models.PersonRepository();
+            _ = new DesignPattern.MVC.Controllers.MainController(mainView, personRepository);
 
             mainView.Show();
         }

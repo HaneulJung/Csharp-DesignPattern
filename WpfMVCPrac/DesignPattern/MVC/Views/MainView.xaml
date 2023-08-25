@@ -6,7 +6,74 @@
         xmlns:local="clr-namespace:WpfDesignPatternPrac.DesignPattern.MVC.Views"
         mc:Ignorable="d"
         Title="MainView" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="ID:" 
+                   HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="이름:" 
+           HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="성:" 
+           HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="나이:" 
+           HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
+
+
+        <TextBox x:Name="txtId" Grid.Row="0" Grid.Column="1"/>
+        <TextBox x:Name="txtName" Grid.Row="1" Grid.Column="1"/>
+        <TextBox x:Name="txtSex" Grid.Row="2" Grid.Column="1"/>
+        <TextBox x:Name="txtAge" Grid.Row="3" Grid.Column="1"/>
+        
+        
+        <Button x:Name="btnSave" Grid.Row="0" Grid.Column="2" Content="저장" Width="100" FontSize="20"
+                HorizontalAlignment="Left" Click="btnSave_Click"/>
+        <Button x:Name="btnDelete" Grid.Row="1" Grid.Column="2" Content="삭제" Width="100" FontSize="20"
+        HorizontalAlignment="Left" Click="btnDelete_Click"/>
+        <Button x:Name="btnCancel" Grid.Row="2" Grid.Column="2" Content="취소" Width="100" FontSize="20"
+        HorizontalAlignment="Left" Click="btnCancel_Click"/>
+
+        <ListView x:Name="lstView"
+                  Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" FontSize="20">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <EventSetter Event="PreviewMouseLeftButtonUp"
+                                 Handler="ListViewItem_PreviewMouseLeftButtonUp"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn
+                            Header="ID"
+                            Width="100"
+                            DisplayMemberBinding="{Binding Id}"/>
+                        <GridViewColumn
+    Header="이름"
+    Width="100"
+    DisplayMemberBinding="{Binding Name}"/>
+                        <GridViewColumn
+    Header="성"
+    Width="100"
+    DisplayMemberBinding="{Binding Sex}"/>
+                        <GridViewColumn
+    Header="나이"
+    Width="100"
+    DisplayMemberBinding="{Binding Age}"/>
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
+        </ListView>
         
     </Grid>
 </Window>

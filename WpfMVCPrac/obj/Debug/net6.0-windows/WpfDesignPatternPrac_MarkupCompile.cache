@@ -1,5 +1,5 @@
 ﻿WpfDesignPatternPrac
-1.0.0.0
+
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\user\OneDrive\바탕 화면\Csharp_DesignPattern\Csharp-DesignPattern\WpfMVCPrac\App.xaml
 21741145016
 
-12388462988
+101607408327
 194726069201
 DesignPattern\MVC\Views\MainView.xaml;MainWindow.xaml;
 
