@@ -20,12 +20,22 @@ namespace WpfDesignPatternPrac
     /// </summary>
     public partial class MainWindow : Window
     {
-
+        // MVC
         private void MVCBtn_Click(object sender, RoutedEventArgs e)
         {
             var mainView = new DesignPattern.MVC.Views.MainView();
             var personRepository = new DesignPattern.Models.PersonRepository();
             _ = new DesignPattern.MVC.Controllers.MainController(mainView, personRepository);
+
+            mainView.Show();
+        }
+
+        // MVP
+        private void MVPBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var mainView = new DesignPattern.MVP.Views.MainView();
+            var personRepository = new DesignPattern.Models.PersonRepository();
+            _ = new DesignPattern.MVP.Presenters.MainPresenter(mainView, personRepository);
 
             mainView.Show();
         }

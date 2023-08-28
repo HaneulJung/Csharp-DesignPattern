@@ -12,6 +12,7 @@ namespace WpfDesignPatternPrac.DesignPattern.MVC.Controllers
     {
         private readonly IMainView _view;
         private readonly IPersonRepository _personRepository;
+
         private Person GetPersonFromView()
         {
             return new Person
@@ -22,6 +23,7 @@ namespace WpfDesignPatternPrac.DesignPattern.MVC.Controllers
                 Age = _view.Age,
             };
         }
+
         private bool IsValidSave(Person person)
         {
             if (person.Id <= 0)

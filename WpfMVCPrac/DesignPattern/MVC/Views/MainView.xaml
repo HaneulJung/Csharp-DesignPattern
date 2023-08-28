@@ -6,6 +6,25 @@
         xmlns:local="clr-namespace:WpfDesignPatternPrac.DesignPattern.MVC.Views"
         mc:Ignorable="d"
         Title="MainView" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Margin" Value="0 2"/>
+            <Setter Property="Height" Value="30"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Margin" Value="0 2"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+        </Style>
+    </Window.Resources>
+    
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -20,14 +39,10 @@
             <ColumnDefinition Width="5*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.Row="0" Grid.Column="0" Text="ID:" 
-                   HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
-        <TextBlock Grid.Row="1" Grid.Column="0" Text="이름:" 
-           HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
-        <TextBlock Grid.Row="2" Grid.Column="0" Text="성:" 
-           HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
-        <TextBlock Grid.Row="3" Grid.Column="0" Text="나이:" 
-           HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="ID:"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="이름:"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="성:"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="나이:"/>
 
 
         <TextBox x:Name="txtId" Grid.Row="0" Grid.Column="1"/>
@@ -36,12 +51,9 @@
         <TextBox x:Name="txtAge" Grid.Row="3" Grid.Column="1"/>
         
         
-        <Button x:Name="btnSave" Grid.Row="0" Grid.Column="2" Content="저장" Width="100" FontSize="20"
-                HorizontalAlignment="Left" Click="btnSave_Click"/>
-        <Button x:Name="btnDelete" Grid.Row="1" Grid.Column="2" Content="삭제" Width="100" FontSize="20"
-        HorizontalAlignment="Left" Click="btnDelete_Click"/>
-        <Button x:Name="btnCancel" Grid.Row="2" Grid.Column="2" Content="취소" Width="100" FontSize="20"
-        HorizontalAlignment="Left" Click="btnCancel_Click"/>
+        <Button x:Name="btnSave" Grid.Row="0" Grid.Column="2" Content="저장" Click="btnSave_Click"/>
+        <Button x:Name="btnDelete" Grid.Row="1" Grid.Column="2" Content="삭제" Click="btnDelete_Click"/>
+        <Button x:Name="btnCancel" Grid.Row="2" Grid.Column="2" Content="취소" Click="btnCancel_Click"/>
 
         <ListView x:Name="lstView"
                   Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" FontSize="20">

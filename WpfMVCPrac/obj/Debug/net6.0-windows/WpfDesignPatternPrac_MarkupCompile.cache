@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\user\OneDrive\바탕 화면\Csharp_DesignPattern\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\
 WpfDesignPatternPrac
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\user\OneDrive\바탕 화면\Csharp_DesignPattern\Csharp-DesignPattern\WpfMVCPrac\App.xaml
-21741145016
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\App.xaml
+32098885958
 
-101607408327
-194726069201
-DesignPattern\MVC\Views\MainView.xaml;MainWindow.xaml;
+13-1228242019
+194237474483
+DesignPattern\MVC\Views\MainView.xaml;DesignPattern\MVP\Views\MainView.xaml;MainWindow.xaml;
 
 False
 

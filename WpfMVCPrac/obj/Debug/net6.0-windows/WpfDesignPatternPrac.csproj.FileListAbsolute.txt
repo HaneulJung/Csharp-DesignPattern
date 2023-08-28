@@ -21,3 +21,29 @@ C:\Users\user\OneDrive\바탕 화면\Csharp_DesignPattern\Csharp-DesignPattern\W
 C:\Users\user\OneDrive\바탕 화면\Csharp_DesignPattern\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\WpfDesignPatternPrac.pdb
 C:\Users\user\OneDrive\바탕 화면\Csharp_DesignPattern\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\WpfDesignPatternPrac.genruntimeconfig.cache
 C:\Users\user\OneDrive\바탕 화면\Csharp_DesignPattern\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\ref\WpfDesignPatternPrac.dll
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\bin\Debug\net6.0-windows\WpfDesignPatternPrac.exe
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\bin\Debug\net6.0-windows\WpfDesignPatternPrac.dll.config
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\bin\Debug\net6.0-windows\WpfDesignPatternPrac.deps.json
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\bin\Debug\net6.0-windows\WpfDesignPatternPrac.runtimeconfig.json
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\bin\Debug\net6.0-windows\WpfDesignPatternPrac.dll
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\bin\Debug\net6.0-windows\WpfDesignPatternPrac.pdb
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\WpfDesignPatternPrac.csproj.AssemblyReference.cache
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\DesignPattern\MVC\Views\MainView.g.cs
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\WpfDesignPatternPrac_MarkupCompile.cache
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\WpfDesignPatternPrac_MarkupCompile.lref
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\DesignPattern\MVC\Views\MainView.baml
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\WpfDesignPatternPrac.g.resources
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\WpfDesignPatternPrac.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\WpfDesignPatternPrac.AssemblyInfoInputs.cache
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\WpfDesignPatternPrac.AssemblyInfo.cs
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\WpfDesignPatternPrac.csproj.CoreCompileInputs.cache
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\WpfDesignPatternPrac.dll
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\refint\WpfDesignPatternPrac.dll
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\WpfDesignPatternPrac.pdb
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\WpfDesignPatternPrac.genruntimeconfig.cache
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\ref\WpfDesignPatternPrac.dll
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\DesignPattern\MVP\Views\MainView.g.cs
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\DesignPattern\MVP\Views\MainView.baml
