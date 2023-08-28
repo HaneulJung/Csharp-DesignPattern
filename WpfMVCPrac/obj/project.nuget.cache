@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6V4hphYI7Hz9Q/VpXAneMgx18doNxQStSGw3cL58BuFIcSEPOt+AhVEOlFgKSY+1UJjZ35An16vrmk9zeHxs4A==",
+  "dgSpecHash": "KE+Qjw8fblxbheydbwvFiKWyu7g4yy/icjSZPKYj0VK8QM3YVg3CctI41z00W9IA6oU4i3/g1pYDjECITKspuw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gilon\\Desktop\\Cielo\\WPF_Application\\WpfDesignPatternPrac\\Csharp-DesignPattern\\WpfMVCPrac\\WpfDesignPatternPrac.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Gilon\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
   "logs": []
 }

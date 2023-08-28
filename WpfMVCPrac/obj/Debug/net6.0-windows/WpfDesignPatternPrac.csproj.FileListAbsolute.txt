@@ -47,3 +47,7 @@ C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignP
 C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\ref\WpfDesignPatternPrac.dll
 C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\DesignPattern\MVP\Views\MainView.g.cs
 C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\DesignPattern\MVP\Views\MainView.baml
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\DesignPattern\MVVM\Views\MainView.g.cs
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\DesignPattern\MVVM\Views\MainView.baml
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\obj\Debug\net6.0-windows\WpfDesignPatternPrac.csproj.CopyComplete

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Gilon\Desktop\Cielo\WPF_Application\WpfDesignPatternPrac\Csharp-DesignPattern\WpfMVCPrac\App.xaml
-32098885958
+41469125899
 
-151847779938
-194237474483
-DesignPattern\MVC\Views\MainView.xaml;DesignPattern\MVP\Views\MainView.xaml;MainWindow.xaml;
+211796599060
+1951418734737
+DesignPattern\MVC\Views\MainView.xaml;DesignPattern\MVP\Views\MainView.xaml;DesignPattern\MVVM\Views\MainView.xaml;MainWindow.xaml;
 
 True
 

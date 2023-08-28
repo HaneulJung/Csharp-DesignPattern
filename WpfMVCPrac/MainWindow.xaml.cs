@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfDesignPatternPrac.DesignPattern.MVVM.ViewModels;
 
 namespace WpfDesignPatternPrac
 {
@@ -37,6 +38,17 @@ namespace WpfDesignPatternPrac
             var personRepository = new DesignPattern.Models.PersonRepository();
             _ = new DesignPattern.MVP.Presenters.MainPresenter(mainView, personRepository);
 
+            mainView.Show();
+        }
+
+        private void MVVMBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var personRepository = new DesignPattern.Models.PersonRepository();
+
+            var mainView = new DesignPattern.MVVM.Views.MainView()
+            { 
+                DataContext = new DesignPattern.MVVM.ViewModels.MainViewModel(personRepository)
+            };
             mainView.Show();
         }
 
